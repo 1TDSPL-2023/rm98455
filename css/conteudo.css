@@ -14,5 +14,5 @@
 
 .conteudo > div img{
     display: block;
-    width: 80vw;
+    max-width: 100%;
 }
