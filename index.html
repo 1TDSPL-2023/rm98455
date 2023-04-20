@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Layout</title>
     <link rel="stylesheet" href="./css/estilo.css" />
+   
   </head>
   <body>
     <header class="cabecalho">
@@ -54,6 +55,7 @@
       </nav>
 
       <div>
+
         <form action="/apelido" method="post" onsubmit="return true">
           <fieldset>
             <legend>Contato</legend>
@@ -92,6 +94,30 @@
           </fieldset>
         </form>
       </div>
+
+        <form action="" method="get" onsubmit="return false">
+          <fieldset>
+            <legend>Contato</legend>
+            <div>
+              <label for="">Email</label>
+              <input type="email" name="txtEmail" id="idEmail" required placeholder="Email">
+            </div>
+            <div>
+              <label for="">Nome</label>
+              <input type="text" name="txtNome" id="idNome" required placeholder="Nome">
+            </div>
+            <div>
+              <input type="submit" value="Enviar">
+            </div>
+            
+          </fieldset>
+        
+        </form>
+      </div>
+
+
     </footer>
   </body>
 </html>
+
+
