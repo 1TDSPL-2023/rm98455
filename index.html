@@ -54,24 +54,44 @@
       </nav>
 
       <div>
-        <form action="" method="get" onsubmit="return false">
-            <fieldset>
-                <legend>Contato</legend>
-                <div>
-                    <label for="idEmail">Email</label>
-                    <input type="email" name="txtEmail" id="idEmail" required placeholder="Email">
-                </div>
-                <div>
-                    <label for="idNome">Nome</label>
-                    <input type="text" name="txtNome" id="idNome" required placeholder="Nome">
-                </div>
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-            </fieldset>
+        <form action="/apelido" method="post" onsubmit="return true">
+          <fieldset>
+            <legend>Contato</legend>
+            <div>
+              <label for="idEmail">Email</label>
+              <input
+                type="email"
+                name="txtEmail"
+                id="idEmail"
+                required
+                placeholder="Email"
+              />
+            </div>
+            <div>
+              <label for="idNome">Nome</label>
+              <input
+                type="text"
+                name="txtNome"
+                id="idNome"
+                required
+                placeholder="Nome"
+              />
+            </div>
+            <label for="idSenha">Nome</label>
+              <input
+                type="password"
+                name="txtSenha"
+                id="idSenha"
+                required
+                placeholder="Senha"
+              />
+            </div>
+            <div>
+              <input type="submit" value="Enviar" />
+            </div>
+          </fieldset>
         </form>
-    </div>
-
+      </div>
     </footer>
   </body>
 </html>
