@@ -5,6 +5,13 @@
     margin: 0 auto;
 }
 
+
+.conteudo > div img{
+ display: block;
+ max-width: 100%;
+}
+
+
 .conteudo > div{
     flex-grow: 1;
     flex-shrink: 1;
@@ -12,7 +19,11 @@
 
 }
 
+
+}
+
 .conteudo > div img{
     display: block;
     max-width: 100%;
 }
+
